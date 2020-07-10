@@ -51,7 +51,7 @@ signup_elem = browser.find_element_by_id('m_login_email')
 signup_elem.send_keys('@gmail.com')
 
 login_elem = browser.find_element_by_id('m_login_password')
-login_elem.send_keys('State.320')
+login_elem.send_keys('pass')
 
 ins = browser.find_elements_by_tag_name('button')
 for x in ins:
