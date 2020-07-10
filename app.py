@@ -48,10 +48,10 @@ browser =webdriver.Chrome(path)
 # if(driver.title == "Facebook" or driver.title == "Log in to Facebook | Facebook"):
 browser.get('https://m.facebook.com/')
 signup_elem = browser.find_element_by_id('m_login_email')
-signup_elem.send_keys('name@gmail.com')
+signup_elem.send_keys('@gmail.com')
 
 login_elem = browser.find_element_by_id('m_login_password')
-login_elem.send_keys('password')
+login_elem.send_keys('State.320')
 
 ins = browser.find_elements_by_tag_name('button')
 for x in ins:
